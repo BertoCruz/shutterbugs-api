@@ -1,4 +1,4 @@
-# Comic-Can API
+# Shutterbugs API
 
 This app is the back-end server for the Shutterbugs showcase project
 
