@@ -1,15 +1,22 @@
 {
   "name": "shutterbugs-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Server for Shutterbugs showcase project for Turing School of software and design",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BertoCruz/shutterbugs-api.git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Dani Lopez-Cruz",
   "license": "ISC",
+  "homepage": "https://github.com/BertoCruz/shutterbugs-api#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2"
   },
   "devDependencies": {
