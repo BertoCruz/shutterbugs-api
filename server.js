@@ -10,7 +10,7 @@ app.use(express.json());
 app.locals.title = 'Shutterbugs API';
 app.locals.photographers = photographers;
 
-app.set('port', 8080);
+app.set('port', 3001);
 app.listen(app.get('port'), () => {
   console.log(`${app.locals.title} is now running on ${app.get('port')}!`);
 });
