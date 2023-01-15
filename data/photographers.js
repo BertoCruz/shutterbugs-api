@@ -111,7 +111,16 @@ const photographers = [
     group_affiliations: "",
     bio: "",
     user_notes: "",
-    photos: [],
+    photos: [
+      {
+        photo_path: "",
+        description: ""
+      },
+      {
+        photo_path: "",
+        description: ""
+      }
+    ],
   },
   {
     id: 4,
@@ -123,7 +132,16 @@ const photographers = [
     group_affiliations: "",
     bio: "",
     user_notes: "",
-    photos: [],
+    photos: [
+      {
+        photo_path: "",
+        description: ""
+      },
+      {
+        photo_path: "",
+        description: ""
+      }
+    ],
   },
   {
     id: 5,
@@ -135,7 +153,16 @@ const photographers = [
     group_affiliations: "",
     bio: "",
     user_notes: "",
-    photos: [],
+    photos: [
+      {
+        photo_path: "",
+        description: ""
+      },
+      {
+        photo_path: "",
+        description: ""
+      }
+    ],
   },
   {
     id: 6,
@@ -147,7 +174,16 @@ const photographers = [
     group_affiliations: "",
     bio: "",
     user_notes: "",
-    photos: [],
+    photos: [
+      {
+        photo_path: "",
+        description: ""
+      },
+      {
+        photo_path: "",
+        description: ""
+      }
+    ],
   },
   {
     id: 7,
@@ -159,44 +195,17 @@ const photographers = [
     group_affiliations: "",
     bio: "",
     user_notes: "",
-    photos: [],
-  },
-  {
-    id: 8,
-    name: "",
-    birth_year: 0000,
-    death_year: 0000,
-    country_of_origin: "",
-    based: "",
-    group_affiliations: "",
-    bio: "",
-    user_notes: "",
-    photos: [],
-  },
-  {
-    id: 9,
-    name: "",
-    birth_year: 0000,
-    death_year: 0000,
-    country_of_origin: "",
-    based: "",
-    group_affiliations: "",
-    bio: "",
-    user_notes: "",
-    photos: [],
-  },
-  {
-    id: 10,
-    name: "",
-    birth_year: 0000,
-    death_year: 0000,
-    country_of_origin: "",
-    based: "",
-    group_affiliations: "",
-    bio: "",
-    user_notes: "",
-    photos: [],
-  },
+    photos: [
+      {
+        photo_path: "",
+        description: ""
+      },
+      {
+        photo_path: "",
+        description: ""
+      }
+    ],
+  }
 ];
 
 module.exports = photographers;
