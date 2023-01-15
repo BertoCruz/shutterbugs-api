@@ -43,7 +43,7 @@ app.get('api/v1/photographers/:id', (request, response) => {
 app.post('/api/v1/photographers', (request, response) => {
   const submittedPhotographer = request.body;
   
-  for (let requiredParameter of ['name', 'birth_year', 'birth_death', 'country_of_origin', 'based', 'group_affiliations', 'bio', 'photos']) {
+  for (let requiredParameter of ['name', 'birth_year', 'death_year', 'country_of_origin', 'based', 'group_affiliations', 'bio', 'photos']) {
     if (!submittedPhotographer[requiredParameter]) {
     return response.status(422).json({ message: `Body is missing required parameter of ${requiredParameter}.`})
     }
@@ -64,6 +64,7 @@ app.post('/api/v1/photographers', (request, response) => {
 app.delete('api/v1/photographers/:id', (request, response) => {
   const id = parseInt(request.params.id);
   const filteredPhotographers = app.locals.photographers.filter(photographer => photographer.id != id);
+  console.log(filteredPhotographers)
   app.locals.photographers = filteredPhotographers;
 
   response.status(200).json(app.locals.photographers);
