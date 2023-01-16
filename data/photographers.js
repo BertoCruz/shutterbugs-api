@@ -4,7 +4,7 @@ const photographers = [
     is_favorite: true,
     name: "Gaciela Iturbide",
     birth_year: 1942,
-    death_year: 0000,
+    death_year: "alive",
     country_of_origin: "Mexico",
     based: "Mexico",
     group_affiliations: "Mexican Council of Photography",
@@ -54,14 +54,14 @@ const photographers = [
     id: 2,
     is_favorite: true,
     name: "Yael Martinez",
-    birth: 1984,
-    death: 0000,
+    birth_year: 1984,
+    death_year: "alive",
     country_of_origin: "Mexico",
     based: "Mexico",
-    group_affiliations: "Magnum Photos",
-    bio: "Martínez’s work addresses fractured communities in his native Mexico. He often works symbolically to evoke a sense of emptiness, absence, and pain suffered by those affected by organized crime in the region.\\nHe is the recipient of the Eugene Smith Award 2019, was fellow of the Photography and Social Justice Program of The Magnum Foundation. He won the 2nd Prize of the World Press Photo contests 2019 in the category of long-term projects. Martínez was grantee of the Magnum Foundation in the grants: Emergency Fund and On Religion in 2016- 2017.\\nHis work has been featured in group shows in America, Europe, Africa and Asia.\\nHis work has been published by: The Wall Street Journal,Blomberg news, Lens NY times, Time, Vogue Italy, Vrij Nederland, Aperture.\\nMartínez became a Magnum Nominee member in 2020.",
+    group_affiliations: "Magnum Photo",
+    bio: "Martinez's work addresses fractured communities in his native Mexico. He often works symbolically to evoke a sense of emptiness, absence, and pain suffered by those affected by organized crime in the region.<br>He is the recipient of the Eugene Smith Award 2019, was fellow of the Photography and Social Justice Program of The Magnum Foundation. He won the 2nd Prize of the World Press Photo contests 2019 in the category of long-term projects. Martínez was grantee of the Magnum Foundation in the grants: Emergency Fund and On Religion in 2016- 2017.<br>His work has been featured in group shows in America, Europe, Africa and Asia.<br>His work has been published by: The Wall Street Journal,Blomberg news, Lens NY times, Time, Vogue Italy, Vrij Nederland, Aperture.<br>Martínez became a Magnum Nominee member in 2020.",
     user_notes:
-      "I'm really drawn by this photographer's ability to capture raw life from underrepresented communities in Mexico. In some of his pictures, Yael intentionally perforates and scratches his film negatives to bring his pictures to life. This technique literally shines light on the ways in which his subjects are affected by systemic violence from government and organized crime.\\nOne of my favorite projects of his is 'The Flower of Time' where he travels to indigenous pueblos in Guerrero, Mexico, to document the struggles these communities face.",
+      "I'm really drawn by this photographer's ability to capture raw life from underrepresented communities in Mexico. In some of his pictures, Yael intentionally perforates and scratches his film negatives to bring his pictures to life. This technique literally shines light on the ways in which his subjects are affected by systemic violence from government and organized crime.<br>One of my favorite projects of his is 'The Flower of Time' where he travels to indigenous pueblos in Guerrero, Mexico, to document the struggles these communities face.",
     photos: [
       {
         photo_path:
@@ -103,23 +103,47 @@ const photographers = [
   },
   {
     id: 3,
-    name: "",
-    birth_year: 0000,
-    death_year: 0000,
-    country_of_origin: "",
-    based: "",
-    group_affiliations: "",
-    bio: "",
+    name: "Henri Cartier-Bresson",
+    birth_year: 1908,
+    death_year: 2004,
+    country_of_origin: "France",
+    based: "International Traveler",
+    group_affiliations: "Magnum Photo, Henri Cartier-Bresson Foundation",
+    bio: "Born in Chanteloup-en-Brie, Seine-et-Marne, Henri Cartier-Bresson developed a strong fascination with painting early on, and particularly with Surrealism. In 1932, after spending a year in the Ivory Coast, he discovered the Leica – his camera of choice after that moment – and began a life-long passion for photography. In 1933, he had his first exhibition at the Julien Levy Gallery in New York. He later made films with Jean Renoir.<br>Taken prisoner of war in 1940, he escaped on his third attempt in 1943 and subsequently joined an underground organization to assist prisoners and escapees. In 1945, he photographed the liberation of Paris with a group of professional journalists and then filmed the documentary Le Retour (The Return).<br>In 1947, with Robert Capa, George Rodger, David ‘Chim’ Seymour and William Vandivert, he founded Magnum Photos. After three years he had spent travelling in the East, in 1952, he returned to Europe, where he published his first book, Images à la Sauvette (published in English as The Decisive Moment). He explained his approach to photography in these terms, ‘”For me the camera is a sketch book, an instrument of intuition and spontaneity, the master of the instant which, in visual terms, questions and decides simultaneously. It is by economy of means that one arrives at simplicity of expression.”<br>From 1968, he began to curtail his photographic activities, preferring to concentrate on drawing and painting. In 2003, with his wife and daughter, he created the Fondation Henri Cartier-Bresson in Paris for the preservation of his work. Cartier-Bresson received an extraordinary number of prizes, awards, and honorary doctorates. He died at his home in Provence on 3 August 2004, a few weeks short of his 96th birthday.",
     user_notes: "",
     photos: [
+      {
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2016/04/cortex/par44919-overlay.jpg",
+        description: "Henri Cartier-Bresson A man rides his bicycle through the Var department. Hyères, France. 1932."
+      },
+      {
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2016/04/cortex/par30143-overlay.jpg",
+        description: "Henri Cartier-Bresson Canteen for workers building the Hotel Metropol. Moscow, Russia. 1954."
+      },
+      {
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2017/02/cortex/par18477-overlay.jpg",
+        description: "Henri Cartier-Bresson Gandhi dictating a message at Birla House, the residence where he spent his last days and in which he was assassinated, just before breaking his fast. Delhi, India. 1948."
+      },
+      {
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2017/02/cortex/par33889-teaser-story-big.jpg",
+        description: "Henri Cartier-Bresson Gandhi’s body at Birla House, the day after his assassination. Delhi, India. 1948."
+      },
       {
         photo_path: "",
         description: ""
       },
       {
-        photo_path: "",
-        description: ""
-      }
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2016/04/cortex/par45777-overlay.jpg",
+        description: "Henri Cartier-Bresson People scramble to be handed 40 grams of gold each in return for the weakening of paper money. Shanghai, China. December 1948-January 1949."
+      },
+      {
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2016/04/cortex/par43607-overlay.jpg",
+        description: "Henri Cartier-Bresson A man jumps from a wooden ladder. Paris, France. 1932."
+      },
+      {
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2016/04/cortex/par45089-overlay.jpg",
+        description: "Henri Cartier-Bresson A group of children play amongst rubble. Seville, Spain. 1933."
+      },
     ],
   },
   {
@@ -187,23 +211,59 @@ const photographers = [
   },
   {
     id: 7,
-    name: "",
-    birth_year: 0000,
-    death_year: 0000,
-    country_of_origin: "",
-    based: "",
-    group_affiliations: "",
-    bio: "",
+    name: "Ernest Cole",
+    birth_year: 1940,
+    death_year: 1990,
+    country_of_origin: "South Africa",
+    based: "New York until death",
+    group_affiliations: "Magnum Photo",
+    bio: "Ernest Cole was born in South Africa’s Transvaal in 1940 and died in New York City in 1990. During his life he was known for only one book: House of Bondage – published in 1967. In 2011, the Hasselblad Foundation produced a follow-up: Ernest Cole: Photographer.<br>Cole’s early work chronicled the horrors of apartheid and in 1966 he fled the Republic of South Africa becoming a ‘banned person’. He was briefly associated with Magnum Photographers and received funding from the Ford Foundation and Time-Life. In North America, he concentrated on street photography in primarily urban settings.<br>Between 1969 and 1971, Cole spent an extensive amount of time on regular visits to Sweden where he became involved with the Tiofoto collective and exhibited his work. From 1972, Cole’s life fell into disarray and he ceased to work as a photographer, losing control of his archive and negatives in the process. Having experienced periods of homelessness, Cole died aged forty-nine of pancreatic cancer in 1990.<br>In 2017, more than 60,000 of Cole’s negatives missing for more than forty years were discovered in a Stockholm bank vault. This work is now being examined and catalogued.",
     user_notes: "",
     photos: [
       {
-        photo_path: "",
-        description: ""
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2018/06/cortex/nn11432197-overlay.jpg",
+        description: "Ernest Cole. According to Struan Robertson these were recruits. Johannesburg station, South Africa, 1960"
       },
       {
-        photo_path: "",
-        description: ""
-      }
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2018/06/cortex/nn11432156-overlay.jpg",
+        description: "Ernest Cole After processing, they wait at railroad station for transportation to mine. Identity tag on wrist shows shipment of labor to which man is assigned. South Africa. 1960."
+      },
+      {
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2018/06/cortex/nn11432212-overlay.jpg",
+        description: "Ernest Cole During group medical examination the nude men are herded through a string of doctors’ offices. South Africa. 1960."
+      },
+      {
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2018/06/cortex/nn11432132-overlay.jpg",
+        description: "Ernest Cole The train accelerates with its load of clinging passengers. They ride like this through rain and cold, some for the entire journey. South Africa. 1960."
+      },
+      {
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2018/06/cortex/nn11432154-overlay.jpg",
+        description: "Ernest Cole Earnest boy squats on haunches and strains to follow lesson in heat of packed classroom. South Africa. 1960."
+      },
+      {
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2018/06/cortex/nn11432128-overlay.jpg",
+        description: "Ernest Cole Which black train to take is matter of guesswork. They have no destination signs and no announcement of arrivals is made. Head car may be numbered to show its route, but number is often wrong. In confusion, passengers sometimes jump across track, and some are killed by express trains. South Africa. 1960."
+      },
+      {
+        photo_path: "https://www.newframe.com/wp-content/uploads/2020/08/200821_Ernest-Cole-Archive_ECF21-1920x1297.jpg",
+        description: "Circa 1971: A previously unseen image from the work Ernest Cole did for the Ford Foundation, likely taken in New York. (Photographs by Ernest Cole, courtesy of the Ernest Cole Foundation)"
+      },
+      {
+        photo_path: "https://www.newframe.com/wp-content/uploads/2020/08/200821_Ernest-Cole-Archive_ECF28-1920x1287.jpg",
+        description: "Circa 1971: A previously unseen image from the work Ernest Cole did for the Ford Foundation, likely taken in New York. (Photographs by Ernest Cole, courtesy of the Ernest Cole Foundation)"
+      },
+      {
+        photo_path: "https://www.newframe.com/wp-content/uploads/2020/08/200821_Ernest-Cole-Archive_ECF02-1-1920x1280.jpg",
+        description: "Circa 1971: A previously unseen image from the work Ernest Cole did for the Ford Foundation, likely taken in New York. (Photographs by Ernest Cole, courtesy of the Ernest Cole Foundation)"
+      },
+      {
+        photo_path: "https://www.newframe.com/wp-content/uploads/2020/08/200821_Ernest-Cole-Archive_ECF09-1-1920x1317.jpg",
+        description: "Circa 1971: A previously unseen image from the work Ernest Cole did for the Ford Foundation, likely taken in New York. (Photographs by Ernest Cole, courtesy of the Ernest Cole Foundation)"
+      },
+      {
+        photo_path: "https://www.newframe.com/wp-content/uploads/2020/08/200821_Ernest-Cole-Archive_ECF08-1440x960.jpg",
+        description: "Circa 1971: A previously unseen image from the work Ernest Cole did for the Ford Foundation, likely taken in New York. (Photographs by Ernest Cole, courtesy of the Ernest Cole Foundation)"
+      },
     ],
   }
 ];
