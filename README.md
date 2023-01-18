@@ -3,8 +3,6 @@
 This app is the back-end server for the Shutterbugs showcase project
 
 ## Getting started
-**Warning**: Use of this API & backend server will require the user to download PostgreSQL and PG Admin 4. Creating a matching database `showcase_project` and data table `shutterbugs` will also be required.
-
 Clone down this repo, and cd into it.
 
 ### Installation
@@ -13,7 +11,7 @@ Run
 - `npm run dev`
 
 ### Usage
-Once deployed, this API and database can be used to work with the front end of this project [`shutterbugs-ui`](https://github.com/BertoCruz/shutterbugs-ui). User will have full ability to send all HTTP requests listed below.
+Once deployed, this API can be used to work with the front end of this project [`shutterbugs-ui`](https://github.com/BertoCruz/shutterbugs-ui). Just visit [thisdeployed site](https://shutterbugs.vercel.app/) when you done here. User will have full ability to send all HTTP requests listed below.
 
 ### Endpoints
 
