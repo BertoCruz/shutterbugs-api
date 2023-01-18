@@ -28,7 +28,8 @@ app.get('/api/v1/photographers', (request, response) => {
 });
 
 // GET specific photographer
-app.get('api/v1/photographers/:id', (request, response) => {
+app.get('/api/v1/photographers/:id', (request, response) => {
+  
   const id = parseInt(request.params.id);
   const foundPhotographer = app.locals.photographers.find((photographer) => photographer.id === id);
 
@@ -64,7 +65,6 @@ app.post('/api/v1/photographers', (request, response) => {
 app.delete('api/v1/photographers/:id', (request, response) => {
   const id = parseInt(request.params.id);
   const filteredPhotographers = app.locals.photographers.filter(photographer => photographer.id != id);
-  console.log(filteredPhotographers)
   app.locals.photographers = filteredPhotographers;
 
   response.status(200).json(app.locals.photographers);
