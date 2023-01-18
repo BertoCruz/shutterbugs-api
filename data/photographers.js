@@ -6,7 +6,7 @@ const photographers = [
     birth_year: 1942,
     death_year: "alive",
     country_of_origin: "Mexico",
-    based: "Mexico",
+    based: "Coyoacan, Mexico",
     group_affiliations: "Mexican Council of Photography",
     bio: "Born in Mexico City, Graciela Iturbide studied filmmaking at the Centro Universitario de Estudios Cinematográficos between 1969 and 1972, and worked as an assistant to photographer Manuel Alvarez Bravo, who stimulated her interest in photography. She met to Henri Cartier-Bresson while traveling in Europe, and in 1978, was one of the founding members of the Mexican Council of Photography. Besides Cartier-Bresson and Alvarez Bravo, Tina Modotti was in important influence on Iturbide. A major exhibition of her work, 'External Encounters, Internal Imaginings: Photographs of Graciela Iturbide,' was presented at the San Francisco Museum of Modern Art, in addition to retrospectives at the Museo de Arte Contemporáneo de Monterrey in Mexico, and at the Philadelphia Museum of Art. A monograph on her work, Graciela Iturbide: Images of the Spirit (1996), accompanied her Philadelphia show. Iturbide's exquisite high-contrast black-and-white prints convey the starkness of life for many of her subjects. Traveling through Mexico, Ecuador, Venezuela, Panama, and the Mexican community of East Los Angeles, Iturbide documents the uneasy cohabitation of ancient cultural rituals and contemporary adaptations and interpretations. One of her particular interests has been the role of women, and since 1979 she has photographed the Zapotec Indians of Juchitán, Oaxaca, among whom women are commonly accorded places of power, and stereotypical gender roles are frequently subverted. Iturbide uses photography to try to understand Mexico in its totality, as a combination of indigenous practices, and imported and assimilated Catholic religious practices, and foreign economic trade. Meredith Fisher Handy et al. Reflections in a Glass Eye: Works from the International Center of Photography Collection, New York: Bulfinch Press in association with the International Center of Photography, 1999, p. 219. Graciela Iturbide is the recipient of the 2015 Cornell Capa Lifetime Achievement Award.",
     user_notes:
@@ -57,7 +57,7 @@ const photographers = [
     birth_year: 1984,
     death_year: "alive",
     country_of_origin: "Mexico",
-    based: "Mexico",
+    based: "Taxco, Mexico",
     group_affiliations: "Magnum Photo",
     bio: "Martinez's work addresses fractured communities in his native Mexico. He often works symbolically to evoke a sense of emptiness, absence, and pain suffered by those affected by organized crime in the region.  \n \n  He is the recipient of the Eugene Smith Award 2019, was fellow of the Photography and Social Justice Program of The Magnum Foundation. He won the 2nd Prize of the World Press Photo contests 2019 in the category of long-term projects. Martínez was grantee of the Magnum Foundation in the grants: Emergency Fund and On Religion in 2016- 2017.  \n \n  His work has been featured in group shows in America, Europe, Africa and Asia.  \n \n  His work has been published by: The Wall Street Journal,Blomberg news, Lens NY times, Time, Vogue Italy, Vrij Nederland, Aperture.  \n \n  Martínez became a Magnum Nominee member in 2020.",
     user_notes:
@@ -129,8 +129,8 @@ const photographers = [
         description: "Henri Cartier-Bresson Gandhi’s body at Birla House, the day after his assassination. Delhi, India. 1948."
       },
       {
-        photo_path: "",
-        description: ""
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2016/04/cortex/par44990-overlay.jpg",
+        description: "Henri Cartier-Bresson Plasterers in the 15th arrondissement. Paris, France. 1932."
       },
       {
         photo_path: "https://content.magnumphotos.com/wp-content/uploads/2016/04/cortex/par45777-overlay.jpg",
@@ -148,43 +148,95 @@ const photographers = [
   },
   {
     id: 4,
-    name: "",
-    birth_year: 0000,
-    death_year: 0000,
-    country_of_origin: "",
-    based: "",
-    group_affiliations: "",
-    bio: "",
-    user_notes: "",
+    name: "Bruce Gilden",
+    birth_year: 1946,
+    death_year: "alive",
+    country_of_origin: "USA",
+    based: "New York, USA",
+    group_affiliations: "Magnum Photo",
+    bio: "Bruce Gilden is one of the most iconic street photographers of our time. Known for his graphic and often confrontational close-ups made using flash, his images have a degree of intimacy and directness that have become a signature in his work. Though he cut his teeth on the sidewalks of New York City where he grew up, he has since made significant bodies of work in Haiti, Japan, Moscow, France, Ireland and India. 'I’m known for taking pictures very close,' says Gilden of his practice. 'And the older I get, the closer I get.' \n \n Gilden was born in Brooklyn, New York in 1946. He studied sociology at Penn State University but didn’t complete the course. Although he briefly flirted with the idea of being an actor, Gilden decided to become a photographer in 1967, when he bought his first camera. He attended evening classes at the School of Visual Arts in New York, but largely considers himself to be self-taught. \n \n As well as his many acclaimed personal projects, Gilden has worked on commissions for Louis Vuitton, RATP Parisian transportation system, The Climate Group, and Mission Photographique Transmanche as well as publications including Wallpaper, New York Times Magazine. \n \n Gilden has received many awards and grants for his work, including National Endowments for the Arts fellowships (1980, 1984 and 1992), French 'Villa Medicis Hors les Murs' grant (1995), grants from the New York State Foundation for the Arts ( 1979, 1992 and 2000), a Japan Foundation Artist Fellowship (1999) and in 2013 a Guggenheim Foundation fellowship. Since the seventies, his work has been exhibited in museums and galleries all over the world. \n \n Gilden lives in Beacon, New York. He joined Magnum Photos in 1998.",
+    user_notes: "His style is controversial, and many people reckon him to a creep, a dick, or an asshole. They think that all he likes to do is scare people and capture their scared reactions. However if you pay attention to what he says, he reckons to the people he shoots as 'his friends'. In talking to Bruce in person, he made that very clear as well. He told me, 'I’m not out there to scare people' – and he discussed how he felt this urge to capture the faces of those around him. \n \n Although Bruce Gilden is over 60 years old and he claims that his “pace is slowing down”, he is full of energy and truly a character himself. Something that I never knew is that when he was in school, he actually studied acting. Although this surprised me a bit (I never knew that), but it made a ton of sense. If anyone has ever seen Bruce on video, he really knows how to put on a show and is able to show his charisma and passion through his actions and words. With his grey hair slicked back and his classic photography vest on, the man is truly something else. ",
     photos: [
       {
-        photo_path: "",
-        description: ""
+        photo_path: "https://independent-photo.com/wp-content/uploads/2022/05/Bruce-Gilden-Cover.jpg",
+        description: "Bruce Gilden, Yakuza, Japan, 1998"
       },
       {
-        photo_path: "",
-        description: ""
-      }
+        photo_path: "https://images.squarespace-cdn.com/content/v1/575719aa20c64748d571fdaf/1465330302448-OD4MLMKBNI7QUGTJF222/NYC16689.jpg?format=1000w",
+        description: "Nwe York City. 1984. Feast of San Gennero, Little Italy. Bruce Gilden"
+      },
+      {
+        photo_path: "https://www.all-about-photo.com/images/events/EXHI-lost-and-found-bruce-gilden-800-H-1.jpg",
+        description: "Bruce Gilden, Lost and Found, mid 70's - 80's, New York,USA"
+      },
+      {
+        photo_path: "https://images.squarespace-cdn.com/content/v1/5702ab9d746fb9634796c9f9/1511801968687-ENW116C50MFICQDPBL2R/NN11460772.jpg",
+        description: "Bruce Gilden, Trish (B&W), 2015."
+      },
+      {
+        photo_path: "https://d7hftxdivxxvm.cloudfront.net/?height=531&quality=80&resize_to=fit&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FbGBZa2kTlHow_m-ooIY1uw%2Fnormalized.jpg&width=800",
+        description: "Bruce Gilden, New York City, USA, 1984"
+      },
+      {
+        photo_path: "https://www.thephoblographer.com/wp-content/uploads/2021/03/Gilden-Bruce.jpg?width=1200&enable=upscale",
+        description: "Bruce Gilden, New York City, USA, 1984"
+      },
+      {
+        photo_path: "https://eiko.ai/eiko/meero/Gphs1kotoWsc9A8xJI4eBuaBv9Y/eyJpbnB1dCI6eyJzb3VyY2VzIjpbImh0dHBzOlwvXC9tZWRpYS5tZWVyby5jb21cL2Jsb2ctbWVkaWFcLzEyODVcLzlhNzU5ZDhjLWZmZjgtNDAzYS1iZmRhLTc5NGNiMTZmMDFhNC5qcGciXX0sIm9wZXJhdGlvbnMiOlt7InR5cGUiOiJyZXNpemUiLCJ3aWR0aCI6MTAyNH1dLCJvdXRwdXQiOnsicXVhbGl0eSI6NzB9fQ==",
+        description: "Bruce Gilden, Palermo, Italy, 2019 "
+      },
+      {
+        photo_path: "https://s3-eu-west-1.amazonaws.com/image-cdn-dev.magnum-dev.com/image/17307/1920x4000.jpg",
+        description: "Bruce Gilden, Coney Island. New York City, 1977"
+      },
+      {
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2019/10/cortex/nn11553240-teaser-story-big.jpg",
+        description: "Bruce Gilden, Lost and Found, mid 70's - 80's, New York,USA"
+      },
     ],
   },
   {
     id: 5,
-    name: "",
-    birth_year: 0000,
-    death_year: 0000,
-    country_of_origin: "",
-    based: "",
-    group_affiliations: "",
-    bio: "",
-    user_notes: "",
+    name: "Eli Reed",
+    birth_year: 1946,
+    death_year: "alive",
+    country_of_origin: "USA",
+    based: "Austin, USA",
+    group_affiliations: "Magnum Photo",
+    bio: "Eli Reed was born in the US and studied pictorial illustration at the Newark School of Fine and Industrial Arts, graduating in 1969. In 1982 he was a Nieman Fellow at Harvard University. At Harvard’s Kennedy School of Government, he studied political science, urban affairs, and the prospects for peace in Central America. \n \n Reed began photographing as a freelancer in 1970. His work from El Salvador, Guatemala and other Central American countries attracted the attention of Magnum in 1982. He was nominated to the agency the following summer, and became a full member in 1988. \n \n In the same year, Reed photographed the effects of poverty on America’s children for a film documentary called Poorest in the Land of Plenty, narrated by Maya Angelou. He went on to work as a stills and specials photographer for major motion pictures. His video documentary Getting Out was shown at the New York Film Festival in 1993 and honored by the 1996 Black Film-makers Hall of Fame International Film and Video Competition in the documentary category. \n \n Reed’s special reports include a long-term study on Beirut (1983-87), which became his first, highly acclaimed book Beirut, City of Regrets, the ousting of Baby Doc Duvalier in Haiti (1986), US military action in Panama (1989), the Walled City in Hong Kong and, perhaps most notably, his documentation of African-American experience over more than twenty years. Spanning the 1970s through the end of the 1990s, his book Black in America includes images from the Crown Heights riots and the Million Man March. \n \n Reed has lectured and taught at the International Center of Photography, Columbia University, New York University, and Harvard University. He currently works as Clinical Professor of Photojournalism at the University of Texas in Austin.",
+    user_notes: "'Being a photographer is an obligation,' Reed says, not a mission.' Having worked with organizations such as Save the Children and Doctors Without Borders, I want people to understand that. It is a project dear to my heart to do what I can for the less fortunate in this world.'",
     photos: [
       {
-        photo_path: "",
-        description: ""
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2016/04/cortex/nyc38272-overlay.jpg",
+        description: "Eli Reed Film: 'Poetic Justice' directed by john Singleton, with Tupac Shakur. Los Angeles, California, USA. 1992. © Eli Reed | Magnum Photos"
       },
       {
-        photo_path: "",
-        description: ""
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2016/04/cortex/nyc25385-overlay.jpg",
+        description: "Eighteen-year-old Elyzabeth Vasquez and her 22-year-old husband, Ruben Vasquez, along the waterfront on a Sunday afternoon. They were both born in Perth Amboy. Perth Amboy, New Jersey, USA. 2000."
+      },
+      {
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2016/04/cortex/nyc341-overlay.jpg",
+        description: "Eli Reed Model and actress Tyra Banks embraces film director John Singleton. Los Angeles, California, USA. 1994."
+      },
+      {
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2016/04/cortex/nyc25374-overlay.jpg",
+        description: "During a Continental Soccer League game at Rudyk Park, Marco Meneses kisses his daughter, Melanie, who is 1 year and 8 months old. Perth Amboy, New Jersey, USA. 2000."
+      },
+      {
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2016/04/cortex/par118279-overlay.jpg",
+        description: "Eli Reed, Film Director John SIingleton, Rap artist, Ice Cube, and actor Laurence Fishburne. Los Angeles, California, USA. 1994."
+      },
+      {
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2016/04/cortex/nyc1427-overlay.jpg",
+        description: "Female Commanding Officer, Lt. Pat Lackey, walks through male recruits, being punished, while she enters company HQ at 6:00 AM. Orlando, Florida, USA. 1993. ©Eli Reed / Magnum Photos No photograph or digital file may be reproduced, cropped, or modified (digitally or otherwise) and its captions may not be altered without prior written agreement from Magnum or a Magnum representative."
+      },
+      {
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2016/04/cortex/par117259-overlay.jpg",
+        description: "Charleston, South Carolina, USA. 1984."
+      },
+      {
+        photo_path: "https://content.magnumphotos.com/wp-content/uploads/2016/04/cortex/par104105-overlay.jpg",
+        description: "Harlem street scene. Child playing in an unfed car. USA. New York City. 1987."
       }
     ],
   },
